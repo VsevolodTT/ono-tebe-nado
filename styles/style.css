@@ -163,9 +163,6 @@
   gap: 25px;
 }
 
-.lots__card-list-item {
-}
-
 .card-link {
   height: 100%;
 }
@@ -191,16 +188,9 @@
   background-image: url("../images/card-lot-03.jpg");
 }
 
-.overlay {
-  background: #000000;
-  position: absolute;
-  opacity: 60%;
-  inset: 0;
-}
-
 .card__title {
   font-size: 22px;
-  font-family: 700px;
+  font-weight: 700px;
   line-height: 26.4px;
   color: white;
   text-decoration: underline;
@@ -213,7 +203,7 @@
 
 .card__text {
   font-size: 20px;
-  font-family: 400px;
+  font-weight: 400px;
   line-height: 24px;
   color: white;
   position: relative;
@@ -291,6 +281,12 @@
   font-weight: 400;
   line-height: 24.3px;
   margin-left: 25px;
+
+}
+
+.footer__link {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
 }
 
 .footer__menu {
