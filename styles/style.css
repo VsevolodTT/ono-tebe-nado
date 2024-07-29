@@ -269,7 +269,7 @@
 }
 
 .footer {
-  padding: 180px 26px 88px;
+  padding: 179px 26px 88px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
