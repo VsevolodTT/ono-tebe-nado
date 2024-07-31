@@ -43,10 +43,13 @@
 }
 
 .address {
-  padding: 7px 25.5px 2px 186px;
   font-style: normal;
   letter-spacing: 0.1px;
   line-height: 23.5px;
+}
+
+.header__address {
+  padding: 7px 25.5px 2px 186px;
 }
 
 .address__link {
@@ -228,6 +231,7 @@
   display: grid;
   gap: 15px;
   grid-template-columns: 359px auto;
+  justify-items: center;
   place-content: space-between start;
   box-sizing: content-box;
 }
@@ -235,16 +239,19 @@
 .about__logo {
   background: black;
   margin: 33px;
-  width: 240px;
-  height: 240px;
+  width: 69%;
+  height: 40.5%;
   border-radius: 50%;
+  justify-content: center;
   justify-self: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about__logo-image {
-  justify-content: center;
-  padding: 64px 45.52px 62px 46.48px;
+  width: 59.5%;
 }
 
 .about__column {
@@ -279,7 +286,6 @@
 
 .footer__address {
   justify-self: start;
-  font-style: normal;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
