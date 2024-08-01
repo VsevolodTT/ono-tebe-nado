@@ -45,7 +45,9 @@
 .address {
   font-style: normal;
   letter-spacing: 0.1px;
-  line-height: 23.5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
 }
 
 .header__address {
@@ -97,7 +99,9 @@
 }
 
 .aligned-text_center {
-  grid-column: 2/4;
+  grid-column: 1/4;
+  width: 100%;
+  text-align: center;
 }
 
 .aligned-text_right {
@@ -284,10 +288,6 @@
 }
 
 .footer__address {
-  justify-self: start;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
   margin-left: 25px;
 }
 
